@@ -39,6 +39,8 @@
   width: 500px; /* Tamanho inicial das imagens maiores */
   height: auto;
   transition: transform 0.3s ease-in-out; /* Apenas movimento */
+  transform: translateY(0);
+  transform: translateX(0) 
 }
 
 .row {
@@ -58,23 +60,11 @@
   transform: translateY(-10px); /* Move a imagem para cima */
 }
 
-/* Card menor */
-.smaller-card {
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
 
 /* Ícone maior */
 .large-icon {
   width: 100px; /* Aumenta o tamanho do ícone */
   height: auto; /* Mantém a proporção */
-}
-
-/* Título menor */
-.card-title {
-  font-size: 1rem; /* Ajusta o tamanho da fonte */
-  font-weight: bold;
 }
 
 /* Botão menor */
