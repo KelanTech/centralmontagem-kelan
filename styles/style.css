@@ -7,11 +7,11 @@
 }
 /* Estilo da navbar */
 /* Adicionar imagem de fundo ao navbar */
-.custom-navbar {
+.navbar {
   background-image: url('../images/navbackground.png'); /* Caminho para a imagem de fundo */
   background-size: cover; /* A imagem cobre todo o espaço */
   background-position: center; /* Centraliza a imagem no navbar */
-  height: 300px; /* Altura do navbar, ajustável */
+  height: 200px; /* Altura do navbar, ajustável */
   display: flex;
   align-items: center; /* Centraliza o conteúdo verticalmente */
 }
@@ -19,14 +19,13 @@
 /* Estilo adicional para o logotipo */
 .navbar-logo {
   z-index: 2; /* Garante que o logotipo fique sobre o fundo */
-  margin-top: -50px; /* Move o logotipo para cima */
-  transform: translateY(-10px); /* Ajuste fino para centralização */
+  margin: auto; /* Centraliza o logotipo horizontalmente */
+  transform: translateY(-19x); /* Ajuste fino para centralização */
 }
 
 /* Remover sombras ou bordas padrão do Bootstrap (opcional) */
 .bg-body-tertiary {
   border: none; /* Remove bordas */
-  box-shadow: none; /* Remove sombras */
 }
 
 .icon-container {
@@ -36,15 +35,15 @@
 }
 
 .icon-container img {
-  width: 500px; /* Tamanho inicial das imagens maiores */
+  width: 540px; /* Tamanho inicial das imagens maiores */
   height: auto;
-  transition: transform 0.3s ease-in-out; /* Apenas movimento */
+  transition: transform 0.2s ease-in-out; /* Apenas movimento */
   transform: translateY(0);
   transform: translateX(0) 
 }
 
 .row {
-  gap: 35px; /* Espaçamento entre as imagens */
+  gap: 55px; /* Espaçamento entre as imagens */
 }
 
 .social-icon img {
