@@ -8,14 +8,13 @@
 /* Estilo da navbar */
 /* Adicionar imagem de fundo ao navbar */
 .navbar {
-  background-image: url('../images/navbackground.png'); /* Caminho para a imagem de fundo */
+  background-image: url('../images/navbarbackground.png'); /* Caminho para a imagem de fundo */
   background-size: cover; /* A imagem cobre todo o espaço */
   background-position: center; /* Centraliza a imagem no navbar */
   height: 200px; /* Altura do navbar, ajustável */
   display: flex;
   align-items: center; /* Centraliza o conteúdo verticalmente */
 }
-
 /* Estilo adicional para o logotipo */
 .navbar-logo {
   z-index: 2; /* Garante que o logotipo fique sobre o fundo */
