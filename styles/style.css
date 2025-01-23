@@ -1,10 +1,29 @@
 .custom-bg {
-  background-image: url('../images/background.png'); /* Caminho da imagem */
+  background-image: url('../images/background.svg'); /* Caminho da imagem */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
+.navbar {
+  background-image: url('../images/navbarbackground.png'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* A imagem cobre todo o espaço */
+  background-position: center; /* Centraliza a imagem no navbar */
+  height: 200px; /* Altura do navbar, ajustável */
+  display: flex;
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilo adicional para o logotipo */
+.navbar-logo {
+  z-index: 2; /* Garante que o logotipo fique sobre o fundo */
+  margin-top: -50px; /* Move o logotipo para cima */
+  transform: translateY(-10px); /* Ajuste fino para centralização */
+}
+
+
+
 
 .icon-container {
   display: flex;
@@ -18,13 +37,15 @@
   transition: transform 0.3s ease-in-out; /* Apenas movimento */
 }
 
+.icon-container{
+  box-shadow: black;
+}
+
 .row {
   gap: 35px; /* Espaçamento entre as imagens */
 }
 
 .social-icon img {
-  width: 80px; /* Tamanho inicial dos ícones sociais */
-  height: auto; /* Mantém a proporção */
   transition: transform 0.1s ease-in-out; /* Transição suave para o efeito de movimento */
 }
 
