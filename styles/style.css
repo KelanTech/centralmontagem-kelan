@@ -15,15 +15,9 @@
   align-items: center; /* Centraliza o conteúdo verticalmente */
 }
 
-/* Estilo adicional para o logotipo */
-.navbar-logo {
-  z-index: 2; /* Garante que o logotipo fique sobre o fundo */
-  margin-top: -50px; /* Move o logotipo para cima */
-  transform: translateY(-10px); /* Ajuste fino para centralização */
+.container-fluid img{
+  padding-right: 20px;
 }
-
-
-
 
 .icon-container {
   display: flex;
@@ -58,19 +52,6 @@
   transform: translateY(-10px); /* Move a imagem para cima */
 }
 
-/* Responsividade para imagens maiores */
-@media (max-width: 768px) {
-  .icon-container img {
-    width: 300px; /* Reduz o tamanho para telas menores */
-  }
-}
-
-@media (max-width: 576px) {
-  .icon-container img {
-    width: 200px; /* Ajuste adicional para dispositivos pequenos */
-  }
-}
-
 /* Card menor */
 .smaller-card {
   padding: 10px;
@@ -96,9 +77,16 @@
   padding: 5px 10px;
 }
 
-/* Responsividade */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .icon-container img {
+    width: 300px; /* Reduz o tamanho para telas menores */
+  }
+
   .large-icon {
     width: 80px; /* Diminui o tamanho do ícone para telas pequenas */
+  }
+
+  .icon-container img {
+    width: 200px; /* Ajuste adicional para dispositivos pequenos */
   }
 }
