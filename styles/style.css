@@ -47,10 +47,6 @@
   transform: translateY(-5px); /* Move levemente para cima ao passar o mouse */
 }
 
-/* Efeito hover para imagens maiores */
-.manual-img:hover {
-  transform: translateY(-10px); /* Move a imagem para cima */
-}
 
 /* Card menor */
 .smaller-card {
@@ -75,6 +71,10 @@
 .btn-sm {
   font-size: 0.85rem;
   padding: 5px 10px;
+}
+
+h2{
+ text-align: center;
 }
 
 @media (max-width: 768px) {
