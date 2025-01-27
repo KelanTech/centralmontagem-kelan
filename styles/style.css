@@ -99,6 +99,11 @@ h2{
   height: auto;
 }
 
+.section a{
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Responsividade (opcional) */
 @media (max-width: 768px) {
   .container {
