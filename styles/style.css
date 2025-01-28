@@ -97,8 +97,7 @@ h2{
   .container {
     flex-direction: column; /* Empilha as divs em colunas para telas menores */
   }
-}
-@media (max-width: 768px) {
+
   .icon-container img {
     width: 300px; /* Reduz o tamanho para telas menores */
   }
@@ -109,5 +108,33 @@ h2{
 
   .icon-container img {
     width: 200px; /* Ajuste adicional para dispositivos pequenos */
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 150px; /* Reduz o tamanho do logotipo em telas menores */
+  }
+
+  .navbar-nav {
+    text-align: center; /* Centraliza os itens do menu */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* Alinha o botão ao lado direito */
+  }
+
+  .dropdown-menu {
+    text-align: left; /* Garante alinhamento adequado para submenus */
+  }
+}
+
+@media (max-width: 576px) {
+  img {
+    width: 120px; /* Tamanho ainda menor para telas muito pequenas */
+  }
+
+  .navbar {
+    padding: 0.5rem 1rem; /* Ajusta o espaçamento geral */
   }
 }
