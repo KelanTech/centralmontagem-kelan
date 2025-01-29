@@ -12,6 +12,19 @@
   height: 8rem;
   display: flex;
   align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: #222 !important; /* Fundo escuro para destacar o branco */
+  padding: 1rem; /* Ajuste do padding */
+}
+
+.navbar-nav .nav-link {
+  color: white !important; /* Deixa o texto branco */
+  font-size: 1.1rem; /* Aumenta um pouco a fonte */
+  font-weight: 500; /* Deixa o texto um pouco mais encorpado */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa !important; /* Leve mudança para um branco mais claro */
+  text-decoration: underline;
 }
 
 .container-fluid img{
