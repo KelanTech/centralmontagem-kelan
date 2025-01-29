@@ -7,10 +7,9 @@
 }
 
 .navbar {
-  background-image: url('../images/navbarbackground.png'); /* Caminho para a imagem de fundo */
   background-size: cover; /* A imagem cobre todo o espaço */
   background-position: center; /* Centraliza a imagem no navbar */
-  height: 200px; /* Altura do navbar, ajustável */
+  height: 8rem;
   display: flex;
   align-items: center; /* Centraliza o conteúdo verticalmente */
 }
@@ -109,10 +108,12 @@ h2{
   .icon-container img {
     width: 200px; /* Ajuste adicional para dispositivos pequenos */
   }
-}
 
-@media (max-width: 768px) {
-  img {
+  .navbar{
+    height: auto;
+  }
+
+  .navbar img {
     width: 150px; /* Reduz o tamanho do logotipo em telas menores */
   }
 
@@ -136,5 +137,6 @@ h2{
 
   .navbar {
     padding: 0.5rem 1rem; /* Ajusta o espaçamento geral */
+    height: auto;
   }
 }
