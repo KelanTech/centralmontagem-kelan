@@ -6,16 +6,6 @@
     });
   });
   
-  // Display modal for PDFs (future integration)
-  document.querySelectorAll('.dropdown-item').forEach(item => {
-    item.addEventListener('click', function (e) {
-      e.preventDefault();
-      const pdfUrl = this.getAttribute('href');
-      alert(`Abrindo o manual: ${pdfUrl}`);
-    });
-  });
-  
-  
   document.querySelectorAll('.social-icon img').forEach(icon => {
     icon.addEventListener('mouseover', () => {
       icon.style.transform = 'scale(1.1)';
