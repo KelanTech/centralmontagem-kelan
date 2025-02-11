@@ -105,6 +105,46 @@ h2{
   color: inherit;
 }
 
+#item2{
+  width: 29px;
+  height: auto;
+}
+
+#item3{
+  width: 61px;
+  height: auto;
+}
+
+#item4{
+  height: 75px;
+  width: auto;
+}
+
+#item6{
+  width: 24px;
+  height: auto;
+}
+
+#item7{
+  width: 56px;
+  height: auto;
+}
+
+#item8{
+  width: 58px;
+  height: auto;
+}
+
+#item9{
+  width: 29px;
+  height: auto;
+}
+
+#item10{
+  width: 200px;
+  height: auto;
+}
+
 @media (max-width: 768px) {
   .container {
     flex-direction: column; /* Empilha as divs em colunas para telas menores */
